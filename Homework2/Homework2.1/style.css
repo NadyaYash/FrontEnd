@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+ol{
+    color: red;
+}
+
+.boldtext{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.bluetext{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div p{
+    width: 500px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+h2{
+    color: green;
+}
+
+div ul{
+    width: 500px;
+    color: brown;
+    font-style: italic;
+      
+    
+}
+
+ul li{
+    font-size: 16px; 
+}
