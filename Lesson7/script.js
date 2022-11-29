@@ -1,46 +1,16 @@
-// // console.log('Hello world');
-
-// // let a = 10, b = 20;
-// // const c = 10; 
-// // let result = prompt(title, defailt);
-// // let result = prompt("What is your Name");
-// // console.log(result);
-
-// let num = 76;
-// // Infinity, -Infinity, NaN
-// console.log(typeof(num));
-
-// let name = prompt("What is your name?");
-// console.log(`Hello ${name}`);
-
-// console.log(2 + 3);
-// console.log(2 - 3);
-// console.log(2 / 3);
-// console.log(2 ** 3);
-// console.log(11 % 2);
-
-// let r = 12;
-// let g = 34;
-// let b = 14;
-
-// console.log(`rgb(${r}, ${g}, ${b})`);
-// console.log("rgb(" + r + ", " + g + ", " + b + ")");
-
-// let result = prompt("How old are you?");
-// result = Number(result);
-// console.log(result * 525600);
-
-// let num = prompt("Enter one number?");
-// result = Number(num);
-// console.log(num ** 2);
-
-let first_num = prompt("Enter the first number");
-let second_num = prompt("Enter the second number");
-first_num = Number(first_num);
-second_num = Number(second_num);
-if(first_num > second_num){
-    console.log(first_num);
-} else {
-    console.log(second_num);
+let arr3 = [0, 1, 2, 3, 33, 99, 2];
+console.log(arr3.indexOf(arr3[0]));
+console.log(arr3.indexOf(arr3[1]));
+console.log(arr3.indexOf(arr3[2]));
+console.log(arr3.indexOf(arr3[3]));
+console.log(arr3.indexOf(arr3[4]));
+console.log(arr3.indexOf(arr3[5]));
+console.log(arr3.indexOf(arr3[6]));
+console.log(arr3.indexOf(arr3[7]));
+let sum_arr3 = 0;
+for(let i = 0; i < arr3.length; i++){
+    if(arr3[i] == arr3.indexOf(arr3[i])){
+        sum_arr3 = sum_arr3 + arr3[i];
+    }
 }
-
+console.log(sum_arr3);

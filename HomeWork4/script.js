@@ -58,7 +58,7 @@ else{
 
 let num_students = prompt('Enter the number of students');
 let num_chairs = prompt('Enter the number of chairs');
-if(num_students > num_chairs){
+if(num_students >= num_chairs){
     console.log('Стульев не хватает');
 }
 else if(num_students < num_chairs){
@@ -120,7 +120,7 @@ for(let i = 0; i < arr1.length; i++){
 
 let arr2 = [1, -3, 5, 15, 56, 89, 10, 21];
 for(let i = 0; i < arr2.length; i++){
-    if(arr2[i] % 3 == 0){
+    if(i % 3 == 0){
         console.log(arr2.indexOf(arr2[i]));
     }
 }
@@ -130,7 +130,7 @@ for(let i = 0; i < arr2.length; i++){
 let arr3 = [1, -3, 2, 15, 4, 89, 10, 7];
 let sum_arr3 = 0;
 for(let i = 0; i < arr3.length; i++){
-    if(arr3[i] == arr3.indexOf(arr3[i])){
+    if(arr3[i] == i){
         sum_arr3 = sum_arr3 + arr3[i];
     }
 }
